@@ -1,0 +1,12 @@
+.video-section {
+  margin: 45px 8%;
+  .video-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    & > * {
+      margin-left: 4px;
+      margin-bottom: 24px;
+    }
+  }
+}
