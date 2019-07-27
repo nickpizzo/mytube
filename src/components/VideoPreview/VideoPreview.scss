@@ -8,12 +8,8 @@
      override grid settings to make VideoPreview horizontal.
      Vertical is default
    */
-  &.horizontal {
+   &.horizontal {
     grid: auto / 210px auto;
-
-    &.expanded {
-      grid: auto / 246px auto;
-    }
     grid-column-gap: 4px;
     .video-info {
       grid-row: 1 / 2;
